@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+input {
+    border-radius: 4px;
+    height: 50px;
+    margin: 20px;
+    padding: 5px 20px;
+    line-height: 50px;
+    font-size: 15px;
+
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.submit {
+    background-color: rgb(98, 98, 238);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 24px 0 12px;
+    padding: 16px;
+    cursor: pointer;
+
+}
+.submit:hover {
+    background-color: rgb(48, 48, 240);
+}
